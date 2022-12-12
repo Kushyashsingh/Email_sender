@@ -85,7 +85,7 @@ app.post("/sendemail",(req,res)=>{
                         if(err){
                             return res.end(err)
                         }else{
-                            return res.render("./public/result.html")
+                            return res.redirect('/result.html')
                         }
                     })
                 }
