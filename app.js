@@ -1,4 +1,3 @@
-
 var express = require('express')
 var bodyParser = require('body-parser')
 var nodemailer= require('nodemailer')
@@ -61,7 +60,7 @@ app.post("/sendemail",(req,res)=>{
                 secure:true,
                 auth:{
                     user:"kushyashsingh2@gmail.com",
-                    pass:"wprifsqudvksqcmm",
+                    pass:"adtcswcjuqtbjefg",
                 }
             })
             var mailOptions={
@@ -94,6 +93,6 @@ app.post("/sendemail",(req,res)=>{
     })
 })
 
-app.listen(8000, ()=>{
+app.listen(5000, ()=>{
     console.log('Server is up')
 }) 
