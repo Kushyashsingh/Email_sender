@@ -61,7 +61,7 @@ app.post("/sendemail",(req,res)=>{
                 secure:true,
                 auth:{
                     user:"kushyashsingh2@gmail.com",
-                    pass:"zcdvddtjwoqdoimr",
+                    pass:"wprifsqudvksqcmm",
                 }
             })
             var mailOptions={
